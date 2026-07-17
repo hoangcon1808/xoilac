@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Danh sách trận đấu</title>
+    <style>
+        .match-card { border: 1px solid #444; padding: 15px; margin: 10px; border-radius: 8px; background: #1a1a1a; color: #00ff00; font-family: monospace; }
+    </style>
 </head>
 <body>
     <div id="app">Đang tải dữ liệu...</div>
@@ -10,32 +13,44 @@
     <script>
         async function loadMatches() {
             const app = document.getElementById('app');
+            // Cần dùng chế độ 'cors' để gọi sang domain khác
+            const apiEndpoint = 'https://seo.alpro-api-service.com/v1/live-data';
+            
             try {
-                const res = await fetch('/api/matches');
-                const result = await res.json();
+                const response = await fetch(apiEndpoint, {
+                    method: 'GET',
+                    headers: {
+                        'Origin': 'https://thapcamtv2026a.com',
+                        'Referer': 'https://thapcamtv2026a.com/'
+                    }
+                });
 
-                if (result.error) throw new Error(result.error);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const result = await response.json();
+                console.log("Dữ liệu nhận được:", result);
 
-                // Dùng console.log để kiểm tra cấu trúc trong F12 -> Console
-                console.log("Cấu trúc JSON nhận được:", result);
-
-                // Thử tìm mảng dữ liệu (Thường nằm trong 'data' hoặc chính là 'result')
-                const list = result.data || result.matches || result;
+                // Dựa vào cấu trúc thường thấy ở các API bóng đá, 
+                // dữ liệu thường nằm trong một thuộc tính 'data' hoặc chính là mảng
+                const list = result.data || result; 
 
                 if (!Array.isArray(list)) {
-                    throw new Error("Không tìm thấy mảng dữ liệu. Dữ liệu trả về: " + JSON.stringify(result));
+                    throw new Error("Cấu trúc dữ liệu không phải là mảng.");
                 }
 
                 app.innerHTML = list.map(m => `
-                    <div style="border:1px solid #ccc; padding:10px; margin:5px;">
-                        <strong>${m.name || 'Không rõ tên'}</strong>
+                    <div class="match-card">
+                        <strong>Trận: ${m.home_name || 'Đội nhà'} vs ${m.away_name || 'Đội khách'}</strong><br>
+                        <span>ID: ${m.match_id}</span>
                     </div>
                 `).join('');
 
             } catch (e) {
-                app.innerHTML = `<b style="color:red">Lỗi: ${e.message}</b>`;
+                app.innerHTML = `<b style="color:red">Lỗi: ${e.message}</b><br>
+                <small>Lưu ý: Nếu lỗi 'CORS', bạn cần gọi qua một Proxy hoặc dùng backend để lấy dữ liệu.</small>`;
             }
         }
+
         loadMatches();
     </script>
 </body>
