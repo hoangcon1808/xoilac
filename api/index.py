@@ -3,10 +3,19 @@ from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
-# Tự động xử lý cấu hình CORS cho tất cả các request
 CORS(app)
 
+# 1. Bắt đường dẫn trang chủ gốc (Tránh lỗi Not Found khi vừa mở link Vercel)
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({
+        "status": "success",
+        "message": "Server đang hoạt động! Hãy thêm /api/matches hoặc /matches vào cuối đường dẫn URL của bạn."
+    })
+
+# 2. Bắt cả 2 trường hợp đường dẫn để không bao giờ xịt
 @app.route('/api/matches', methods=['GET'])
+@app.route('/matches', methods=['GET'])
 def get_matches():
     url = 'https://api18.colatv88xd.cc/api/matches'
     headers = {
@@ -20,13 +29,11 @@ def get_matches():
         return jsonify(data)
         
     except Exception as e:
-        # Nếu lỗi (do timeout hoặc bị Cloudflare chặn), trả về JSON thông báo lỗi chuẩn xác
         return jsonify({
             "status": "error",
-            "message": "Không thể lấy dữ liệu.",
+            "message": "Lỗi lấy dữ liệu từ API gốc",
             "details": str(e)
         }), 500
 
-# Require của Vercel để chạy được app
 if __name__ == '__main__':
     app.run(debug=True)
