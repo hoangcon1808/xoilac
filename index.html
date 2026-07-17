@@ -2,56 +2,45 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Danh sách trận đấu</title>
+    <title>Tool Lấy Match ID</title>
     <style>
-        .match-card { border: 1px solid #444; padding: 15px; margin: 10px; border-radius: 8px; background: #1a1a1a; color: #00ff00; font-family: monospace; }
+        body { background: #0f0f0f; color: #00ff00; font-family: monospace; padding: 20px; }
+        .card { border: 1px solid #00ff00; padding: 10px; margin: 10px 0; background: #1a1a1a; }
+        button { cursor: pointer; background: #00ff00; border: none; padding: 5px 10px; }
     </style>
 </head>
 <body>
-    <div id="app">Đang tải dữ liệu...</div>
+    <h1>Danh sách trận đấu</h1>
+    <div id="app">Đang tải...</div>
 
     <script>
-        async function loadMatches() {
+        async function init() {
             const app = document.getElementById('app');
-            // Cần dùng chế độ 'cors' để gọi sang domain khác
-            const apiEndpoint = 'https://seo.alpro-api-service.com/v1/live-data';
-            
             try {
-                const response = await fetch(apiEndpoint, {
-                    method: 'GET',
-                    headers: {
-                        'Origin': 'https://thapcamtv2026a.com',
-                        'Referer': 'https://thapcamtv2026a.com/'
-                    }
-                });
-
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                // Gọi tới proxy của chính bạn
+                const res = await fetch('/api/proxy');
+                const data = await res.json();
                 
-                const result = await response.json();
-                console.log("Dữ liệu nhận được:", result);
-
-                // Dựa vào cấu trúc thường thấy ở các API bóng đá, 
-                // dữ liệu thường nằm trong một thuộc tính 'data' hoặc chính là mảng
-                const list = result.data || result; 
-
-                if (!Array.isArray(list)) {
-                    throw new Error("Cấu trúc dữ liệu không phải là mảng.");
-                }
-
-                app.innerHTML = list.map(m => `
-                    <div class="match-card">
-                        <strong>Trận: ${m.home_name || 'Đội nhà'} vs ${m.away_name || 'Đội khách'}</strong><br>
-                        <span>ID: ${m.match_id}</span>
+                app.innerHTML = data.map(m => `
+                    <div class="card">
+                        <strong>${m.home_name || 'Home'} vs ${m.away_name || 'Away'}</strong><br>
+                        <span>ID: ${m.match_id}</span><br>
+                        <button onclick="getStream('${m.match_id}')">Lấy Link JSON</button>
                     </div>
                 `).join('');
-
             } catch (e) {
-                app.innerHTML = `<b style="color:red">Lỗi: ${e.message}</b><br>
-                <small>Lưu ý: Nếu lỗi 'CORS', bạn cần gọi qua một Proxy hoặc dùng backend để lấy dữ liệu.</small>`;
+                app.innerHTML = "Lỗi kết nối: " + e.message;
             }
         }
 
-        loadMatches();
+        async function getStream(matchId) {
+            const url = `https://thapcamtv2026a.com/app/uploads/match-streamers/${matchId}.json?t=${Date.now()}`;
+            alert("Đang gọi: " + url);
+            // Dữ liệu này trực tiếp từ thapcam, nếu vẫn bị CORS, bạn cần thêm proxy thứ 2
+            window.open(url, '_blank');
+        }
+
+        init();
     </script>
 </body>
 </html>
