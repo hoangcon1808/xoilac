@@ -1,8 +1,7 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, make_response
 from flask_cors import CORS
 import requests
 import datetime
-import json  # Code thêm: Import thư viện json
 
 app = Flask(__name__)
 CORS(app)
@@ -25,17 +24,13 @@ def get_formatted_live_matches():
         formatted_list = []
 
         for key, match in matches_dict.items():
-            # Chỉ lấy trận đang live (matchStatus == 2)
             if str(match.get('matchStatus')) == '2':
-                # Chọn link stream: ưu tiên playStreamAddress, nếu không có thì lấy playStreamAddress2
                 anchors = match.get('anchorAppointmentVoList', [{}])
-                stream_link = anchors[0].get('playStreamAddress2') or anchors[0].get('playStreamAddress') or ""
+                stream_link = anchors[0].get('playStreamAddress') or anchors[0].get('playStreamAddress2') or ""
                 
-                # Định dạng thời gian
                 ts = match.get('matchTime', 0)
                 time_str = datetime.datetime.fromtimestamp(ts).strftime('%H:%M %d-%m')
 
-                # Ánh xạ vào cấu trúc mới
                 item = {
                     "league": match.get('competitionName'),
                     "homeTeam": match.get('homeTeamName'),
@@ -55,13 +50,16 @@ def get_formatted_live_matches():
             "data": formatted_list
         }
         
-        # --- Code thêm: Ghi kết quả ra file JSON ---
-        # File sẽ được lưu cùng thư mục với script này với tên 'live_matches.json'
-        with open('live_matches.json', 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=4)
-        # -------------------------------------------
+        # --- CÁCH LÀM CHUẨN TRÊN VERCEL ---
+        response = make_response(jsonify(result))
         
-        return jsonify(result)
+        # Thiết lập Cache: Vercel sẽ lưu lại JSON này ở CDN trong 60 giây.
+        # Nghĩa là nếu có 1000 người truy cập API trong 1 phút, code fetch_data() 
+        # chỉ chạy đúng 1 lần, 999 lần sau Vercel sẽ trả về kết quả JSON đã cache.
+        # (Chức năng này thay thế hoàn hảo cho việc tạo file vật lý)
+        response.headers['Cache-Control'] = 's-maxage=60, stale-while-revalidate'
+        
+        return response
         
     except Exception as e:
         return jsonify({"success": False, "message": str(e)}), 500
