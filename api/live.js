@@ -1,66 +1,50 @@
-export default async function handler(req, res) {
-    // API gốc lấy danh sách
-    const LIST_API_URL = "https://api-ls.cdnokvip.com/api/get-livestream-group?isHot=false&isLive=true&isToday=true&isTomorrow=false&offset=0";
-    
-    const headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-        "Referer": "https://cdnokvip.com/",
-        "Origin": "https://cdnokvip.com",
-        "Accept": "application/json, text/plain, */*"
-    };
+/**
+ * File: app.js
+ * Mục đích: Lấy dữ liệu từ API và xử lý JSON
+ */
 
+const API_URL = 'https://api-v2.chuoichientv.net/v2/matches?page=1&limit=9&type=blv';
+
+async function fetchMatches() {
     try {
-        const listRes = await fetch(LIST_API_URL, { headers });
-        const listData = await listRes.json();
+        const response = await fetch(API_URL);
         
-        // Lấy danh sách, nếu không có 'datas' thì kiểm tra xem nó nằm ở đâu (debug)
-        let matches = listData?.value?.datas || listData?.data || [];
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
+        }
+
+        const jsonResponse = await response.json();
         
-        // DEBUG: Bỏ comment dòng dưới nếu vẫn bị total: 0 để xem cấu trúc thực tế
-        // console.log("List API Response:", JSON.stringify(listData));
+        // Ghi log để bạn biết cấu trúc chính xác của JSON
+        console.log('Dữ liệu thô nhận được:', jsonResponse);
 
-        // NỚI LỎNG ĐIỀU KIỆN: Chỉ cần có dữ liệu là lấy, không lọc thời gian quá gắt
-        // Nếu API trả về list trống, vấn đề nằm ở API gốc
-        const rawMatches = matches.slice(0, 10); 
+        // Giả sử API trả về mảng dữ liệu nằm trong key 'data' hoặc 'items'
+        // Bạn hãy kiểm tra console log để thay đổi dòng này cho khớp
+        const matches = jsonResponse.data || []; 
 
-        const fetchMatchDetail = async (match) => {
-            // Thay đổi ID tùy vào key của API gốc (thử id, matchId, hoặc slugUrl)
-            const matchId = match.id || match.matchId || match.slug;
-            if (!matchId) return null;
-
-            const detailUrl = `https://fb-api.apiscoreflow.com/football/match/detail_live?id=${matchId}`;
-            
-            try {
-                const response = await fetch(detailUrl, { headers });
-                const json = await response.json();
-                
-                // Trả về dữ liệu nếu tìm thấy link stream
-                const streamLink = json?.data?.stream_url || json?.data?.live_url || json?.data?.url || null;
-                
-                if (!streamLink) return null;
-
-                return {
-                    league: match.leagueName || "Unknown",
-                    homeTeam: match.homeName || "Home",
-                    awayTeam: match.awayName || "Away",
-                    streamLink: streamLink
-                };
-            } catch (e) {
-                return null;
-            }
-        };
-
-        const results = await Promise.all(rawMatches.map(fetchMatchDetail));
-        const finalData = results.filter(r => r !== null);
-
-        res.setHeader('Content-Type', 'application/json; charset=utf-8');
-        return res.status(200).json({
-            success: true,
-            total: finalData.length,
-            data: finalData
-        });
+        renderMatches(matches);
 
     } catch (error) {
-        return res.status(500).json({ success: false, message: error.message });
+        console.error('Lỗi khi lấy dữ liệu:', error);
     }
 }
+
+function renderMatches(matches) {
+    const container = document.getElementById('match-container');
+    if (!container) return;
+
+    if (matches.length === 0) {
+        container.innerHTML = '<p>Không có trận đấu nào.</p>';
+        return;
+    }
+
+    container.innerHTML = matches.map(match => `
+        <div class="match-card">
+            <h3>${match.name || 'Đang cập nhật'}</h3>
+            <p>Thời gian: ${match.time || 'Chưa rõ'}</p>
+        </div>
+    `).join('');
+}
+
+// Chạy hàm khi trang web đã tải xong
+document.addEventListener('DOMContentLoaded', fetchMatches);
