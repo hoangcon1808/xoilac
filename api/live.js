@@ -1,76 +1,67 @@
+/**
+ * API Handler: Lấy danh sách trận đấu đang live và link stream từ API Scoreflow
+ */
 export default async function handler(req, res) {
     const LIST_API_URL = "https://api-ls.cdnokvip.com/api/get-livestream-group?isHot=false&isLive=true&isToday=true&isTomorrow=false&offset=0";
     
-    // Tạo header với IP ngẫu nhiên để tránh chặn request
-    const fakeIp = `113.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`;
+    // Cấu hình headers để giả lập trình duyệt, quan trọng cho việc bypass chặn request
     const headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-        "X-Forwarded-For": fakeIp,
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "Referer": "https://cdnokvip.com/",
         "Accept": "application/json"
     };
 
     try {
-        // BƯỚC 1: Lấy danh sách trận đấu
+        // 1. Lấy danh sách trận đấu gốc
         const listRes = await fetch(LIST_API_URL, { headers });
-        if (!listRes.ok) throw new Error("Không thể kết nối API danh sách");
+        if (!listRes.ok) throw new Error("API List failed");
         
         const listData = await listRes.json();
         let matches = listData?.value?.datas || [];
         
-        const currentTime = Math.floor(Date.now() / 1000);
-        // Lọc trận đang diễn ra (trong vòng 3 tiếng)
-        matches = matches.filter(match => match.matchTime <= currentTime && match.matchTime > (currentTime - 10800)).slice(0, 20);
+        // Lọc trận đấu đang diễn ra trong vòng 3 giờ
+        const now = Math.floor(Date.now() / 1000);
+        matches = matches.filter(m => m.matchTime <= now && m.matchTime > (now - 10800)).slice(0, 20);
 
-        if (matches.length === 0) {
-            return res.status(200).json({ success: true, message: "Không có trận nào đang live", data: [] });
-        }
-
-        // BƯỚC 2: Cào chi tiết trận đấu từ API mới
+        // 2. Hàm lấy chi tiết link stream
         const fetchMatchDetail = async (match) => {
-            const matchId = match.id || match.matchId; // Đảm bảo lấy đúng ID
+            const matchId = match.id || match.matchId;
             const detailUrl = `https://fb-api.apiscoreflow.com/football/match/detail_live?id=${matchId}`;
             
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 3000);
-            
             try {
-                const detailRes = await fetch(detailUrl, { headers, signal: controller.signal });
-                clearTimeout(timeoutId);
+                const response = await fetch(detailUrl, { headers });
+                const json = await response.json();
                 
-                if (!detailRes.ok) return { ...match, m3u8Link: "ERROR_API" };
+                // CẤU TRÚC JSON: Dựa trên kinh nghiệm, hãy tìm trường chứa '.m3u8'
+                // Thay thế detailData.data.stream_url bằng key thực tế bạn thấy khi test
+                const streamLink = json?.data?.stream_url || json?.data?.live_url || json?.data?.url || "LINK_NOT_FOUND";
                 
-                const detailData = await detailRes.json();
-                
-                /* 
-                   LƯU Ý: Nếu link không hiện, hãy kiểm tra console.log(detailData) 
-                   và thay đổi đường dẫn dưới đây cho khớp với cấu trúc API của họ.
-                */
-                const m3u8Link = detailData?.data?.live_url || detailData?.data?.stream || "LINK_NOT_FOUND";
-                
-                return { ...match, m3u8Link };
-            } catch (err) {
-                clearTimeout(timeoutId);
-                return { ...match, m3u8Link: "TIMEOUT" };
+                return {
+                    league: match.leagueName,
+                    homeTeam: match.homeName,
+                    awayTeam: match.awayName,
+                    status: "ĐANG LIVE",
+                    streamLink: streamLink
+                };
+            } catch {
+                return null;
             }
         };
 
+        // 3. Xử lý đồng thời để đạt tốc độ cao
         const results = await Promise.all(matches.map(fetchMatchDetail));
 
-        // BƯỚC 3: Định dạng dữ liệu trả về
-        const jsonData = results.map(item => ({
-            league: item.leagueName || "Unknown",
-            homeTeam: item.homeName || "Home",
-            awayTeam: item.awayName || "Away",
-            time: new Date(item.matchTime * 1000).toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }),
-            status: "ĐANG LIVE",
-            streamLink: item.m3u8Link
-        }));
-
+        // 4. Trả về kết quả
         res.setHeader('Content-Type', 'application/json; charset=utf-8');
-        res.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate=5');
-        return res.status(200).json({ success: true, total: jsonData.length, data: jsonData });
+        res.setHeader('Cache-Control', 's-maxage=30, stale-while-revalidate=10'); // Cache 30 giây để giảm tải
+        
+        return res.status(200).json({
+            success: true,
+            total: results.filter(r => r !== null).length,
+            data: results.filter(r => r !== null)
+        });
 
     } catch (error) {
-        return res.status(500).json({ success: false, message: error.message, data: [] });
+        return res.status(500).json({ success: false, message: error.message });
     }
 }
