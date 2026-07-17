@@ -1,29 +1,39 @@
-from http.server import BaseHTTPRequestHandler
 import requests
+import json
 
-class handler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        # API gốc bạn muốn lấy
-        target_url = "https://seo.alpro-api-service.com/v1/live-data"
+def fetch_and_save_matches():
+    url = 'https://api18.colatv88xd.cc/api/matches'
+    output_file = 'matches.json'
+    
+    # Thêm User-Agent để tránh bị API block
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+
+    try:
+        print(f"Đang gọi API: {url}...")
         
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
-            "Origin": "https://thapcamtv2026a.com",
-            "Referer": "https://thapcamtv2026a.com/"
-        }
+        # Gọi API với phương thức GET
+        response = requests.get(url, headers=headers)
         
-        try:
-            # Lấy dữ liệu
-            response = requests.get(target_url, headers=headers)
+        # Kiểm tra nếu HTTP status code không phải là 200 (Thành công)
+        response.raise_for_status() 
+
+        # Chuyển đổi dữ liệu trả về thành Dictionary/List trong Python
+        data = response.json()
+
+        # Ghi dữ liệu ra file JSON
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
             
-            # Trả về kết quả
-            self.send_response(200)
-            self.send_header('Content-type', 'application/json')
-            self.send_header('Access-Control-Allow-Origin', '*') # Cho phép mọi nguồn gọi
-            self.end_headers()
-            self.wfile.write(response.content)
-        except Exception as e:
-            self.send_response(500)
-            self.end_headers()
-            self.wfile.write(str(e).encode())
-        return
+        print(f"✅ Đã lưu toàn bộ thông tin trận đấu vào file: {output_file}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Có lỗi mạng hoặc HTTP xảy ra: {e}")
+    except json.JSONDecodeError:
+        print("❌ Dữ liệu trả về không phải là chuẩn JSON.")
+    except Exception as e:
+        print(f"❌ Có lỗi không xác định xảy ra: {e}")
+
+if __name__ == "__main__":
+    fetch_and_save_matches()
