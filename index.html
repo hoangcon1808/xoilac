@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách trận đấu</title>
+</head>
 <body>
     <div id="app">Đang tải dữ liệu...</div>
 
     <script>
-        async function load() {
+        async function loadMatches() {
+            const app = document.getElementById('app');
             try {
-                // Gọi tới đường dẫn API do bạn vừa tạo trên Vercel
                 const res = await fetch('/api/matches');
-                const json = await res.json();
-                
-                // Giả sử API trả về mảng trực tiếp hoặc nằm trong key 'data'
-                const list = json.data || json; 
-                
-                document.getElementById('app').innerHTML = list.map(m => `
-                    <div style="border:1px solid #ccc; margin:10px; padding:10px;">
-                        <h3>${m.name || 'Trận đấu'}</h3>
+                const result = await res.json();
+
+                if (result.error) throw new Error(result.error);
+
+                // Dùng console.log để kiểm tra cấu trúc trong F12 -> Console
+                console.log("Cấu trúc JSON nhận được:", result);
+
+                // Thử tìm mảng dữ liệu (Thường nằm trong 'data' hoặc chính là 'result')
+                const list = result.data || result.matches || result;
+
+                if (!Array.isArray(list)) {
+                    throw new Error("Không tìm thấy mảng dữ liệu. Dữ liệu trả về: " + JSON.stringify(result));
+                }
+
+                app.innerHTML = list.map(m => `
+                    <div style="border:1px solid #ccc; padding:10px; margin:5px;">
+                        <strong>${m.name || 'Không rõ tên'}</strong>
                     </div>
                 `).join('');
+
             } catch (e) {
-                document.getElementById('app').innerText = 'Lỗi tải trang.';
+                app.innerHTML = `<b style="color:red">Lỗi: ${e.message}</b>`;
             }
         }
-        load();
+        loadMatches();
     </script>
 </body>
 </html>
