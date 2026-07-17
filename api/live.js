@@ -1,50 +1,18 @@
-/**
- * File: app.js
- * Mục đích: Lấy dữ liệu từ API và xử lý JSON
- */
-
-const API_URL = 'https://api-v2.chuoichientv.net/v2/matches?page=1&limit=9&type=blv';
-
-async function fetchMatches() {
+// api/matches.js
+export default async function handler(req, res) {
+    const URL = 'https://api-v2.chuoichientv.net/v2/matches?page=1&limit=9&type=blv';
+    
     try {
-        const response = await fetch(API_URL);
+        const response = await fetch(URL, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Referer': 'https://chuoichientv.net/'
+            }
+        });
         
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status}`);
-        }
-
-        const jsonResponse = await response.json();
-        
-        // Ghi log để bạn biết cấu trúc chính xác của JSON
-        console.log('Dữ liệu thô nhận được:', jsonResponse);
-
-        // Giả sử API trả về mảng dữ liệu nằm trong key 'data' hoặc 'items'
-        // Bạn hãy kiểm tra console log để thay đổi dòng này cho khớp
-        const matches = jsonResponse.data || []; 
-
-        renderMatches(matches);
-
+        const data = await response.json();
+        res.status(200).json(data);
     } catch (error) {
-        console.error('Lỗi khi lấy dữ liệu:', error);
+        res.status(500).json({ error: 'Không thể kết nối tới server bóng đá' });
     }
 }
-
-function renderMatches(matches) {
-    const container = document.getElementById('match-container');
-    if (!container) return;
-
-    if (matches.length === 0) {
-        container.innerHTML = '<p>Không có trận đấu nào.</p>';
-        return;
-    }
-
-    container.innerHTML = matches.map(match => `
-        <div class="match-card">
-            <h3>${match.name || 'Đang cập nhật'}</h3>
-            <p>Thời gian: ${match.time || 'Chưa rõ'}</p>
-        </div>
-    `).join('');
-}
-
-// Chạy hàm khi trang web đã tải xong
-document.addEventListener('DOMContentLoaded', fetchMatches);
