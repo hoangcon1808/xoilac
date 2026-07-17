@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<body>
+    <div id="app">Đang tải dữ liệu...</div>
+
+    <script>
+        async function load() {
+            try {
+                // Gọi tới đường dẫn API do bạn vừa tạo trên Vercel
+                const res = await fetch('/api/matches');
+                const json = await res.json();
+                
+                // Giả sử API trả về mảng trực tiếp hoặc nằm trong key 'data'
+                const list = json.data || json; 
+                
+                document.getElementById('app').innerHTML = list.map(m => `
+                    <div style="border:1px solid #ccc; margin:10px; padding:10px;">
+                        <h3>${m.name || 'Trận đấu'}</h3>
+                    </div>
+                `).join('');
+            } catch (e) {
+                document.getElementById('app').innerText = 'Lỗi tải trang.';
+            }
+        }
+        load();
+    </script>
+</body>
+</html>
