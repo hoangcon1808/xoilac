@@ -5,18 +5,17 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-def fetch_data_via_proxy():
-    # 1. Khai báo link gốc và link proxy của bạn
+def fetch_data():
+    # Gọi trực tiếp đến API gốc
     target_url = 'https://api18.colatv88xd.cc/api/matches'
-    proxy_url = f'https://fancy-rice-6d07.hoangcon.workers.dev/?{target_url}'
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json'
     }
 
-    # Gọi qua proxy thay vì gọi thẳng
-    response = requests.get(proxy_url, headers=headers, timeout=15)
+    # Gọi thẳng API gốc với timeout 15s
+    response = requests.get(target_url, headers=headers, timeout=15)
     response.raise_for_status()
     return response.json()
 
@@ -25,7 +24,7 @@ def fetch_data_via_proxy():
 def home():
     return jsonify({
         "status": "success",
-        "message": "Server đang hoạt động!",
+        "message": "Server Vercel Flask đang hoạt động!",
         "endpoints": {
             "all_matches": "/api/matches",
             "live_matches": "/api/live"
@@ -36,39 +35,39 @@ def home():
 @app.route('/api/matches', methods=['GET'])
 def get_all_matches():
     try:
-        data = fetch_data_via_proxy()
+        data = fetch_data()
         return jsonify(data)
     except Exception as e:
-        return jsonify({"status": "error", "message": "Lỗi khi gọi Proxy", "details": str(e)}), 500
+        return jsonify({"status": "error", "message": "Lỗi khi gọi API gốc", "details": str(e)}), 500
 
 # --- LỌC NHỮNG TRẬN ĐANG ĐÁ ---
 @app.route('/api/live', methods=['GET'])
 def get_live_matches():
     try:
-        data = fetch_data_via_proxy()
+        data = fetch_data()
         
-        # Xác định danh sách trận đấu (tùy thuộc API trả về List hay Dict)
-        matches_list = data if isinstance(data, list) else data.get('data', [])
+        # Trích xuất phần 'data' (là một dictionary chứa các trận đấu)
+        matches_dict = data.get('data', {})
+        live_matches = {}
         
-        live_matches = []
-        for match in matches_list:
-            # 2. Quét các từ khóa/cờ nhận diện "đang đá" phổ biến trong các API bóng đá
-            is_live = match.get('is_live')
-            status = str(match.get('status', '')).lower()
-            match_status = str(match.get('match_status', '')).lower()
+        # Duyệt qua các key (slug) và value (thông tin trận)
+        for match_key, match_info in matches_dict.items():
             
-            if (is_live in [1, '1', True]) or \
-               ('live' in status or 'đang' in status or status == '2') or \
-               ('live' in match_status or 'đang' in match_status or match_status == '2'):
-                
-                live_matches.append(match)
+            # Quét trường matchStatus. Số 2 có nghĩa là đang trực tiếp (live)
+            match_status = match_info.get('matchStatus')
+            
+            # Chấp nhận matchStatus là int 2 hoặc chuỗi '2'
+            if str(match_status) == '2':
+                live_matches[match_key] = match_info
 
-        # Nếu dữ liệu gốc là Dict, chỉ ghi đè mảng data để giữ nguyên cấu trúc
-        if isinstance(data, dict):
-            data['data'] = live_matches
-            return jsonify(data)
-            
-        return jsonify(live_matches)
+        # Trả về kết quả giữ nguyên cấu trúc chuẩn của API gốc
+        response_data = {
+            "code": data.get("code", "0000"),
+            "status": data.get("status", 0),
+            "data": live_matches
+        }
+
+        return jsonify(response_data)
 
     except Exception as e:
         return jsonify({"status": "error", "message": "Lỗi khi lọc trận đang đá", "details": str(e)}), 500
