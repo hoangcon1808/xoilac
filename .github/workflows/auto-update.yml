@@ -1,0 +1,20 @@
+name: Auto Ping Vercel APIs
+
+on:
+  schedule:
+    # Chạy mỗi 5 phút (Đây là giới hạn nhanh nhất của GitHub Actions)
+    - cron: '*/5 * * * *'
+  
+  # Cấu hình này cho phép bạn vào tab "Actions" trên GitHub để bấm nút chạy thủ công test thử
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Ping Live API
+        run: curl -s https://xoilac-navy.vercel.app/api/live > /dev/null
+        
+      - name: Ping Matches API
+        run: curl -s https://xoilac-navy.vercel.app/api/matches > /dev/null
