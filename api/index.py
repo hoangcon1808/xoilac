@@ -17,30 +17,26 @@ def fetch_data():
     return response.json()
 
 def format_match_data(match):
-    """
-    Hàm xử lý định dạng chung cho 1 trận đấu
-    """
+    """ Hàm xử lý định dạng chung cho 1 trận đấu """
     anchors = match.get('anchorAppointmentVoList') or []
     if not anchors:
         anchors = [{}] # Đảm bảo không bị lỗi nếu mảng rỗng
-        
+
     stream_link = ""
     fallback_link = ""
     commentator = "NHÀ ĐÀI"
-    
+
     # 1. ƯU TIÊN TÌM LINK M3U8
     for anchor in anchors:
-        if not anchor: 
-            continue
-            
+        if not anchor: continue
         addr1 = anchor.get('playStreamAddress') or ""
         addr2 = anchor.get('playStreamAddress2') or ""
-        
+
         # Lưu lại link đầu tiên tìm được làm phương án dự phòng (fallback)
         if not fallback_link:
             fallback_link = addr1 or addr2
             commentator = anchor.get('nickName', 'NHÀ ĐÀI')
-            
+
         # Kiểm tra nếu link có đuôi m3u8 thì lấy luôn và ngắt vòng lặp
         if '.m3u8' in addr1.lower():
             stream_link = addr1
@@ -50,7 +46,7 @@ def format_match_data(match):
             stream_link = addr2
             commentator = anchor.get('nickName', 'NHÀ ĐÀI')
             break
-            
+
     # Nếu không tìm thấy link m3u8 nào, sử dụng link dự phòng
     if not stream_link:
         stream_link = fallback_link
@@ -62,26 +58,29 @@ def format_match_data(match):
     # Trạng thái trận đấu (Tùy chọn: có thể thay đổi text cho phù hợp)
     status_code = str(match.get('matchStatus', ''))
     status_text = status_code
-    if status_code == '1': status_text = "SẮP DIỄN RA"
-    elif status_code in ['2', '3', '4', '5']: status_text = "ĐANG LIVE"
-    elif status_code == '-1': status_text = "KẾT THÚC"
+    if status_code == '1':
+        status_text = "SẮP DIỄN RA"
+    elif status_code in ['2', '3', '4', '5']:
+        status_text = "ĐANG LIVE"
+    elif status_code == '-1':
+        status_text = "KẾT THÚC"
 
     return {
-        "league": match.get('competitionName'),
-        "homeTeam": match.get('homeTeamName'),
-        "awayTeam": match.get('awayTeamName'),
+        "league": match.get('competitionName') or "Bóng Đá",
+        "homeTeam": match.get('homeTeamName') or "Đang cập nhật",
+        "awayTeam": match.get('awayTeamName') or "Đang cập nhật",
         "time": time_str,
         "timestamp": ts,
         "statusCode": status_code,
         "status": status_text,
         "commentator": commentator,
-        "homeLogo": match.get('homeTeamLogo'),
-        "awayLogo": match.get('awayTeamLogo'), # Thêm logo đội khách cho đầy đủ
+        "homeLogo": match.get('homeTeamLogo', ''),
+        "awayLogo": match.get('awayTeamLogo', ''), # Thêm logo đội khách cho đầy đủ
         "streamLink": stream_link
     }
 
 # ==========================================
-# ROUTE 1: Chỉ lấy các trận ĐANG LIVE
+# ROUTE 1: Chỉ lấy các trận ĐANG LIVE (JSON)
 # ==========================================
 @app.route('/api/live', methods=['GET'])
 def get_live_matches():
@@ -89,24 +88,22 @@ def get_live_matches():
         data = fetch_data()
         matches_dict = data.get('data', {})
         formatted_list = []
-
         for key, match in matches_dict.items():
             # Thường status 2,3,4,5 là các trạng thái đang đá (Hiệp 1, Nghỉ giữa hiệp, Hiệp 2, ...)
             if str(match.get('matchStatus')) in ['2', '3', '4', '5']:
                 item = format_match_data(match)
                 item["status"] = "ĐANG LIVE" # Ép kiểu text thành Đang Live
                 formatted_list.append(item)
-
+        
         result = {"success": True, "total": len(formatted_list), "data": formatted_list}
         response = make_response(jsonify(result))
         response.headers['Cache-Control'] = 's-maxage=60, stale-while-revalidate'
         return response
-        
     except Exception as e:
         return jsonify({"success": False, "message": str(e)}), 500
 
 # ==========================================
-# ROUTE 2: Lấy TẤT CẢ các trận đấu
+# ROUTE 2: Lấy TẤT CẢ các trận đấu (JSON)
 # ==========================================
 @app.route('/api/matches', methods=['GET'])
 def get_all_matches():
@@ -114,23 +111,73 @@ def get_all_matches():
         data = fetch_data()
         matches_dict = data.get('data', {})
         formatted_list = []
-
         for key, match in matches_dict.items():
             item = format_match_data(match)
             formatted_list.append(item)
-
+        
         # Có thể sort list theo thời gian (timestamp) để sắp xếp trận đấu từ mới tới cũ hoặc ngược lại
         formatted_list.sort(key=lambda x: x['timestamp'])
-
+        
         result = {"success": True, "total": len(formatted_list), "data": formatted_list}
         response = make_response(jsonify(result))
-        
         # Cache 60s cho Vercel (giảm tải API gốc)
         response.headers['Cache-Control'] = 's-maxage=60, stale-while-revalidate'
         return response
-        
     except Exception as e:
         return jsonify({"success": False, "message": str(e)}), 500
 
+
+# ==========================================
+# ROUTE 3: Tạo File M3U Playlist
+# ==========================================
+@app.route('/playlist.m3u', methods=['GET'])
+def get_m3u_playlist():
+    try:
+        data = fetch_data()
+        matches_dict = data.get('data', {})
+        
+        formatted_list = []
+        for key, match in matches_dict.items():
+            formatted_list.append(format_match_data(match))
+            
+        # Sắp xếp từ trận mới nhất/sắp diễn ra
+        formatted_list.sort(key=lambda x: x['timestamp'])
+        
+        # Khởi tạo nội dung file M3U
+        m3u_lines = ["#EXTM3U"]
+        
+        for item in formatted_list:
+            stream_link = item.get('streamLink')
+            # Bỏ qua nếu trận đấu đã kết thúc hoặc không có link stream
+            if not stream_link or item.get('statusCode') == '-1':
+                continue
+                
+            # Định dạng tên hiển thị trên màn hình list kênh
+            title = f"[{item['status']}] {item['time']} | {item['homeTeam']} vs {item['awayTeam']} (BLV: {item['commentator']})"
+            logo = item.get('homeLogo', '')
+            group = item.get('league', 'Bóng Đá')
+            
+            # Cấu trúc 1 kênh trong m3u:
+            # #EXTINF:-1 tvg-logo="[LOGO]" group-title="[NHÓM]",[TÊN KÊNH]
+            # [LINK STREAM]
+            extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{title}'
+            
+            m3u_lines.append(extinf)
+            m3u_lines.append(stream_link)
+            
+        # Tạo response trả về dưới dạng text/file
+        playlist_content = "\n".join(m3u_lines)
+        response = make_response(playlist_content)
+        
+        # Trả về header báo cho trình duyệt/app biết đây là file m3u
+        response.headers['Content-Type'] = 'audio/x-mpegurl; charset=utf-8'
+        response.headers['Content-Disposition'] = 'attachment; filename="bongda.m3u"'
+        response.headers['Cache-Control'] = 's-maxage=60, stale-while-revalidate'
+        
+        return response
+
+    except Exception as e:
+        return make_response(f"Error: {str(e)}", 500)
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
