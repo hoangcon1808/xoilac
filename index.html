@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách M3U Trực Tiếp</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background-color: #f4f4f9; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        pre { 
+            background: #1e1e1e; color: #5ce6cd; 
+            padding: 15px; border-radius: 5px;
+            overflow-x: auto; white-space: pre-wrap; 
+            word-wrap: break-word;
+            max-height: 500px; overflow-y: auto;
+        }
+        button { 
+            padding: 10px 20px; cursor: pointer; background: #28a745; 
+            color: white; border: none; border-radius: 4px; font-size: 16px;
+            margin-bottom: 15px;
+        }
+        button:hover { background: #218838; }
+        .status { font-size: 14px; color: #666; margin-bottom: 10px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Danh sách M3U (Cập nhật tự động)</h2>
+        <div class="status" id="status-text">Đang kết nối tới máy chủ...</div>
+        <button onclick="copyM3U()">📋 Copy M3U ngay</button>
+        <pre id="m3u-output">Đang tải dữ liệu...</pre>
+    </div>
+
+    <script>
+        const API_URL = 'https://xoilac-navy.vercel.app/api/live';
+        
+        // Hàm chuyển đổi JSON sang định dạng M3U
+        function convertToM3U(data) {
+            let m3u = "#EXTM3U\n";
+            let items = Array.isArray(data) ? data : (data.data || data.matches || []);
+
+            if (items.length === 0) {
+                return "Không tìm thấy dữ liệu trận đấu hoặc cấu trúc API bị thay đổi.";
+            }
+
+            items.forEach(item => {
+                let name = item.name || item.title || item.match_name || "Trận đấu chưa biết";
+                let logo = item.logo || item.image || "";
+                let group = item.league || item.tournament || "Trực Tiếp";
+                let url = item.play_url || item.url || item.link || "";
+
+                if(url) {
+                    m3u += `#EXTINF:-1 tvg-logo="${logo}" group-title="${group}",${name}\n`;
+                    m3u += `${url}\n`;
+                }
+            });
+            return m3u;
+        }
+
+        async function fetchM3U() {
+            const statusText = document.getElementById('status-text');
+            const outputBox = document.getElementById('m3u-output');
+
+            try {
+                // Thử gọi API trực tiếp
+                statusText.innerText = "Đang lấy dữ liệu trực tiếp...";
+                const response = await fetch(API_URL);
+                const data = await response.json();
+                outputBox.textContent = convertToM3U(data);
+                statusText.innerText = "Cập nhật dữ liệu thành công!";
+            } catch (error) {
+                console.warn("Gọi trực tiếp thất bại (CORS), chuyển sang dùng Proxy...");
+                statusText.innerText = "Đang lấy dữ liệu qua Proxy...";
+                
+                try {
+                    // Nếu lỗi CORS, dùng AllOrigins Proxy làm trung gian để vượt rào
+                    const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(API_URL)}`;
+                    const response = await fetch(proxyUrl);
+                    const proxyData = await response.json();
+                    
+                    // AllOrigins trả về data dưới dạng chuỗi trong thuộc tính 'contents'
+                    const data = JSON.parse(proxyData.contents);
+                    outputBox.textContent = convertToM3U(data);
+                    statusText.innerText = "Cập nhật dữ liệu thành công qua Proxy!";
+                } catch (proxyError) {
+                    outputBox.textContent = "Không thể lấy dữ liệu. Lỗi: " + proxyError.message;
+                    statusText.innerText = "Cập nhật thất bại.";
+                }
+            }
+        }
+
+        function copyM3U() {
+            const content = document.getElementById('m3u-output').textContent;
+            if (content.includes("#EXTM3U")) {
+                navigator.clipboard.writeText(content).then(() => {
+                    alert("Đã copy thành công! Bạn có thể dán vào Tivimate, OTT Navigator hoặc VLC.");
+                });
+            } else {
+                alert("Dữ liệu chưa tải xong hoặc bị lỗi, không thể copy!");
+            }
+        }
+
+        // Tự động chạy khi mở web
+        fetchM3U();
+    </script>
+</body>
+</html>
