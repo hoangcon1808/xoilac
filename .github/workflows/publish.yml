@@ -90,7 +90,7 @@ jobs:
             exit 1
           fi
 
-          API="https://api.github.com/repos/csev7n/xoilacz-iptv/contents/playlist.m3u"
+          API="https://api.github.com/repos/hoangcon1808/xoilac/contents/playlist.m3u"
 
           echo ""
           echo "Getting current public playlist..."
