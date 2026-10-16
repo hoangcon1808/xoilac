@@ -1,1 +1,2538 @@
-
+{
+  "generated_at": 1792141046,
+  "match_count": 114,
+  "matches": [
+    {
+      "title": "PHÁT TRỰC TIẾP 100 THIEVES VS SANGAL VÀO LÚC 00:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/100-thieves-vs-sangal-luc-0000-ngay-17-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "42e1ea03fb7c:server:0:79f74c7a",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/100-thieves-vs-sangal-luc-0000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel70.flv?wsSecret=f9268e0cd2b8782fa7fc60560995855e&wsABSTime=1792183876"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP AARON CHIA TENG FONG/SOH WOOI YIK VS HIROKI OKAMURA/KYOHEI YAMASHITA VÀO LÚC 16:50, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/aaron-chia-teng-fong-soh-wooi-yik-vs-hiroki-okamura-kyohei-yamashita-luc-1650-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "fed89047eb5d:server:0:d6b2350b",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/aaron-chia-teng-fong-soh-wooi-yik-vs-hiroki-okamura-kyohei-yamashita-luc-1650-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=684211543fa3c50b48846a37936bfddf&wsABSTime=1792183876"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ADELAIDE CITY VS AVONDALE FC VÀO LÚC 15:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/adelaide-city-vs-avondale-fc-luc-1530-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "653d7a525e06:server:0:6cc0e33b",
+          "index": 0,
+          "name": "HIRO",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/adelaide-city-vs-avondale-fc-luc-1530-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel14.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "653d7a525e06:server:1:2706edd2",
+          "index": 1,
+          "name": "HD HIRO",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/adelaide-city-vs-avondale-fc-luc-1530-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001792140683-0-0-197bffe07efd37b2a6f8399c7120074a"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP AKIRA KOGA/NATSU SAITO VS HOO PANG RON/LAI PEI JING VÀO LÚC 17:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/akira-koga-natsu-saito-vs-hoo-pang-ron-lai-pei-jing-luc-1740-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "f9301c264d4f:server:0:71938374",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/akira-koga-natsu-saito-vs-hoo-pang-ron-lai-pei-jing-luc-1740-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=e0d84741551a23b9d7c42069ed412f72&wsABSTime=1792183885"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP AN SE-YOUNG VS TANVI SHARMA VÀO LÚC 21:50, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/an-se-young-vs-tanvi-sharma-luc-2150-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ccf59794ea2e:server:0:eefc773b",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/an-se-young-vs-tanvi-sharma-luc-2150-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=19abba65731a42c1c0cc135b6c154b75&wsABSTime=1792183887"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ANDERS ANTONSEN VS ALWI FARHAN VÀO LÚC 22:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/anders-antonsen-vs-alwi-farhan-luc-2240-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0e0dc75904a2:server:0:873a2596",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/anders-antonsen-vs-alwi-farhan-luc-2240-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=137b24180e1ebb4c9b0febe1e47400b9&wsABSTime=1792183888"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ASTRALIS VS MIBR VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/astralis-vs-mibr-luc-2100-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "817d0a065009:server:0:1eeda754",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/astralis-vs-mibr-luc-2100-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel70.flv?wsSecret=d9c85f61babd9adf581bffc9243a225e&wsABSTime=1792183893"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP AURORA VS 9Z VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/aurora-vs-9z-luc-2100-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "5d79cea4a32d:server:0:e6e4d0dc",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/aurora-vs-9z-luc-2100-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel71.flv?wsSecret=e591486d1f376a7a08f73cff575dca61&wsABSTime=1792183897"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BAO LIJING/CAO ZIHAN VS GABRIELA STOEVA/STEFANI STOEVA VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/bao-lijing-cao-zihan-vs-gabriela-stoeva-stefani-stoeva-luc-1600-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3150f647d6cb:server:0:62ee2883",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/bao-lijing-cao-zihan-vs-gabriela-stoeva-stefani-stoeva-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=850a00fee23bc1933bb6e4d350f909d2&wsABSTime=1792183898"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BARCELONA VS OLYMPIACOS PIRAEUS B.C. VÀO LÚC 01:30, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/barcelona-vs-olympiacos-piraeus-b-c-luc-0130-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d688b4a0c285:server:0:f43181f5",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/barcelona-vs-olympiacos-piraeus-b-c-luc-0130-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel40.flv?wsSecret=a784153e8a32295799199377be6be586&wsABSTime=1792183902"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BASKET CLUB VIENNA VS KK ZADAR VÀO LÚC 22:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/basket-club-vienna-vs-kk-zadar-luc-2200-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d82a62d28562:server:0:253d943f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/basket-club-vienna-vs-kk-zadar-luc-2200-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel40.flv?wsSecret=eacc9190e3c6964f77bdedb6c9018bb3&wsABSTime=1792183907"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BELARUS U17 VS SLOVENIA U17 VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/belarus-u17-vs-slovenia-u17-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "e41df26e49c4:server:0:533fa002",
+          "index": 0,
+          "name": "LOGAN",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/belarus-u17-vs-slovenia-u17-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel23.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "e41df26e49c4:server:1:0f0e53ab",
+          "index": 1,
+          "name": "HD LOGAN",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/belarus-u17-vs-slovenia-u17-luc-1700-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001792140716-0-0-00abf171322192183fa8b65ce464f948"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BENGALURU ROOTS FC VS BENGALURU B VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/bengaluru-roots-fc-vs-bengaluru-b-luc-1500-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "976db68ce725:server:0:35acc2ec",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/bengaluru-roots-fc-vs-bengaluru-b-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel22.flv?wsSecret=e2052318dbbbe9f4a2d784bbd3ed7040&wsABSTime=1792183911"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BESIKTAS VS BAYERN MUNCHEN VÀO LÚC 00:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/besiktas-vs-bayern-munchen-luc-0000-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "1270e2dd1626:server:0:2845017c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/besiktas-vs-bayern-munchen-luc-0000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel42.flv?wsSecret=ef83829c8bf0a318036e2e19074d02c7&wsABSTime=1792183915"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BIANCA ANDREESCU VS LUCREZIA STEFANINI VÀO LÚC 00:30, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/bianca-andreescu-vs-lucrezia-stefanini-luc-0030-ngay-17-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0b01cbb19062:server:0:5588a31f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/bianca-andreescu-vs-lucrezia-stefanini-luc-0030-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel53.flv?wsSecret=5d95c04489b17694e8540f38fb4a62e0&wsABSTime=1792183919"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BK OLOMOUCKO VS LOKOMOTIVA PLZEN VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/bk-olomoucko-vs-lokomotiva-plzen-luc-1500-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "7b314da31f59:server:0:125653b9",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/bk-olomoucko-vs-lokomotiva-plzen-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel47.flv?wsSecret=7f2396b6304ab46a54aa7c1b2cb550bd&wsABSTime=1792183921"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP BNK FEARX VS TEAM WE VÀO LÚC 16:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/bnk-fearx-vs-team-we-luc-1600-ngay-17-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "aa69f18bbc25:server:0:fb0d909b",
+          "index": 0,
+          "name": "MARTY",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/bnk-fearx-vs-team-we-luc-1600-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel30.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "aa69f18bbc25:server:1:e5dd6b8a",
+          "index": 1,
+          "name": "HD MARTY",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/bnk-fearx-vs-team-we-luc-1600-ngay-17-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001792140732-0-0-b0b832be24551a0551eb10ee9ff7f69b"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CH SÉC U17 VS MOLDOVA U17 VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/ch-sec-u17-vs-moldova-u17-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "a1ea679ecdcc:server:0:e926a7a6",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/ch-sec-u17-vs-moldova-u17-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=c7483a40ffb950f9466c9a85f935df85&wsABSTime=1792183928"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CHENG XING/ZHANG CHI VS MATHIAS CHRISTIANSEN/ALEXANDRA BOJE VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/cheng-xing-zhang-chi-vs-mathias-christiansen-alexandra-boje-luc-2100-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "c0728339b6bf:server:0:7194ba1d",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/cheng-xing-zhang-chi-vs-mathias-christiansen-alexandra-boje-luc-2100-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=5be99eedd50c915a9582ca5d2ccd319b&wsABSTime=1792183930"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CHOU TIEN-CHEN VS ALEX LANIER VÀO LÚC 21:50, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/chou-tien-chen-vs-alex-lanier-luc-2150-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d360438fc883:server:0:ba44d852",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/chou-tien-chen-vs-alex-lanier-luc-2150-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=252cae382fd7d5b830c0fa38568f8845&wsABSTime=1792183935"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CIBONA ZAGREB VS BORAC VÀO LÚC 23:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/cibona-zagreb-vs-borac-luc-2300-ngay-15-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "b10744d5e4f1:server:0:0097f393",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/cibona-zagreb-vs-borac-luc-2300-ngay-15-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel42.flv?wsSecret=40e64698bd4d9f42f5865975b427700c&wsABSTime=1792183937"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CIUDAD VOLEY VS MONTEROS VÀO LÚC 04:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/ciudad-voley-vs-monteros-luc-0400-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3c992d04ed1e:server:0:575f56d7",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/ciudad-voley-vs-monteros-luc-0400-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=730b27f0410a98274d5d3ac80d70ff05&wsABSTime=1792183940"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CONVERGE FIBERXERS VS MACAU BLACK KNIGHTS VÀO LÚC 16:15, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/converge-fiberxers-vs-macau-black-knights-luc-1615-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "006ac5ecd1bd:server:0:e023bb23",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/converge-fiberxers-vs-macau-black-knights-luc-1615-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel43.flv?wsSecret=36a3d36651b4c4aa528e37e6f235d236&wsABSTime=1792183944"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CRVENA ZVEZDA VS PARIS VÀO LÚC 01:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/crvena-zvezda-vs-paris-luc-0100-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "6250947aee00:server:0:a0ddee03",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/crvena-zvezda-vs-paris-luc-0100-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel44.flv?wsSecret=8577c8ba933664eb0401f9fe43344e72&wsABSTime=1792183947"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP CSKA MOSCOW VS KAMA VÀO LÚC 22:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/cska-moscow-vs-kama-luc-2230-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "48f12e51da30:server:0:607d2797",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/cska-moscow-vs-kama-luc-2230-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=eeff53d5134f27fa3d5be58459964a55&wsABSTime=1792183950"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP DANIIL MEDVEDEV VS TOMMY PAUL VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/daniil-medvedev-vs-tommy-paul-luc-1700-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "696c1d965cd4:server:0:b4cd649a",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/daniil-medvedev-vs-tommy-paul-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel56.flv?wsSecret=9397bc813075e67f0a6c2b1d49e0cdd5&wsABSTime=1792183953"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ĐỒNG THÁP VS QUY NHƠN UNITED VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/dong-thap-vs-quy-nhon-united-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "fcd9a1afa487:server:0:1ec7f5a1",
+          "index": 0,
+          "name": "ASTRA",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/dong-thap-vs-quy-nhon-united-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel11.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "fcd9a1afa487:server:1:59cbcf85",
+          "index": 1,
+          "name": "HD ASTRA",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/dong-thap-vs-quy-nhon-united-luc-1700-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-11.flv?auth_key=3000001792140764-0-0-76b69fdda36d14d6d7b10580f5817e6d"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP DUREN VS LUNEBURG VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/duren-vs-luneburg-luc-1600-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "4b5d7c19004e:server:0:5d60175c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/duren-vs-luneburg-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=95d61081b61973efb3c9660b3bbe9884&wsABSTime=1792183959"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ESGUEIRA VS PORTO VÀO LÚC 03:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/esgueira-vs-porto-luc-0300-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d5a1dbe0d279:server:0:8bc45813",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/esgueira-vs-porto-luc-0300-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel42.flv?wsSecret=953d3a0a0d97d95f1ad0328d690fc069&wsABSTime=1792183963"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP EVAN KING/RYAN SEGGERMAN VS JAY DYLAN HARA FRIEND/HO CHENJUI VÀO LÚC 13:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/evan-king-ryan-seggerman-vs-jay-dylan-hara-friend-ho-chenjui-luc-1340-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ec4ac57d8610:server:0:6b3eae14",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/evan-king-ryan-seggerman-vs-jay-dylan-hara-friend-ho-chenjui-luc-1340-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel51.flv?wsSecret=4f3bae88b1196d8a060747c48af77c97&wsABSTime=1792183968"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP FENG YANZHE/HUANG DONGPING VS YE HONG-WEI/CHAN NICOLE GONZALES VÀO LÚC 19:20, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/feng-yanzhe-huang-dongping-vs-ye-hong-wei-chan-nicole-gonzales-luc-1920-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "36caed31453f:server:0:b2c5289c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/feng-yanzhe-huang-dongping-vs-ye-hong-wei-chan-nicole-gonzales-luc-1920-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=d77c40e824938b063da32a0a286ddbb5&wsABSTime=1792183969"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP FK URAL U19 VS LOKOMOTIV MOSCOW (Y) VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/fk-ural-u19-vs-lokomotiv-moscow-y-luc-1500-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "dc1bd73d7291:server:0:e7040796",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/fk-ural-u19-vs-lokomotiv-moscow-y-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=c84029261136e5783f589590a392d627&wsABSTime=1792183973"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP FNATIC VS HEROIC VÀO LÚC 18:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/fnatic-vs-heroic-luc-1800-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "b96ab1fbbd39:server:0:62426513",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/fnatic-vs-heroic-luc-1800-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel70.flv?wsSecret=555223c6be14c013528187627f41d65d&wsABSTime=1792183978"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP FRANCISCO COMESANA VS GENARO ALBERTO OLIVIERI VÀO LÚC 01:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/francisco-comesana-vs-genaro-alberto-olivieri-luc-0100-ngay-17-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ff6c1bb5e680:server:0:3d025cdf",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/francisco-comesana-vs-genaro-alberto-olivieri-luc-0100-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel54.flv?wsSecret=310c17c51ed06ab0a1013115b21cac13&wsABSTime=1792183978"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP FURIA ESPORTS VS CLOUD9 VÀO LÚC 06:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/furia-esports-vs-cloud9-luc-0600-ngay-17-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "b81e1bb76b71:server:0:0316ecb7",
+          "index": 0,
+          "name": "MARTY",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/furia-esports-vs-cloud9-luc-0600-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel30.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "b81e1bb76b71:server:1:fc722243",
+          "index": 1,
+          "name": "HD MARTY",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/furia-esports-vs-cloud9-luc-0600-ngay-17-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001792140788-0-0-172b4c3860844c808e9c9545dd9ffb69"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GABRIELA DABROWSKI/LUISA STEFANI VS INGRID NEEL/GIULIANA OLMOS VÀO LÚC 11:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/gabriela-dabrowski-luisa-stefani-vs-ingrid-neel-giuliana-olmos-luc-1130-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "df99aa0774ed:server:0:47ed26dd",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/gabriela-dabrowski-luisa-stefani-vs-ingrid-neel-giuliana-olmos-luc-1130-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel58.flv?wsSecret=21fe6fddac81ea0880b28bdbca8ffd8f&wsABSTime=1792183987"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GKS KATOWICE VS ZAWIERCIE VÀO LÚC 22:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/gks-katowice-vs-zawiercie-luc-2230-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "572fa0b15e4e:server:0:9765ece9",
+          "index": 0,
+          "name": "TYSON",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/gks-katowice-vs-zawiercie-luc-2230-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel33.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "572fa0b15e4e:server:1:86d1d154",
+          "index": 1,
+          "name": "HD TYSON",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/gks-katowice-vs-zawiercie-luc-2230-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001792140794-0-0-81ac2d92316ea6d02e985ad114e29771"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GOH SZE FEI/NUR IZZUDDIN RUMSANI VS WANG CHANG/LIANG WEIKENG VÀO LÚC 19:20, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/goh-sze-fei-nur-izzuddin-rumsani-vs-wang-chang-liang-weikeng-luc-1920-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "e38a9a1b6826:server:0:397bdcb1",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/goh-sze-fei-nur-izzuddin-rumsani-vs-wang-chang-liang-weikeng-luc-1920-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=3986b2a6fc7ab354dc4b13231f98fe4f&wsABSTime=1792183992"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GOYANG SONO VS ULSAN PHOEBUS VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/goyang-sono-vs-ulsan-phoebus-luc-1700-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "614dbd102d2c:server:0:107a4633",
+          "index": 0,
+          "name": "ALAN",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/goyang-sono-vs-ulsan-phoebus-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel25.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "614dbd102d2c:server:1:ba527ffb",
+          "index": 1,
+          "name": "HD ALAN",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/goyang-sono-vs-ulsan-phoebus-luc-1700-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001792140803-0-0-9bfc917fca92edae22b44c46aa2e7f10"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GUO HANYU/KRISTINA MLADENOVIC VS STORM HUNTER/KATERINA SINIAKOVA VÀO LÚC 13:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/guo-hanyu-kristina-mladenovic-vs-storm-hunter-katerina-siniakova-luc-1300-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "07d2fd6af030:server:0:0eea18ff",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/guo-hanyu-kristina-mladenovic-vs-storm-hunter-katerina-siniakova-luc-1300-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel50.flv?wsSecret=7ada6b0f0112439a4bae62f77bbfd805&wsABSTime=1792183998"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP GUO XINWA/CHEN FANGHUI VS JIANG ZHENBANG/WEI YAXIN VÀO LÚC 23:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/guo-xinwa-chen-fanghui-vs-jiang-zhenbang-wei-yaxin-luc-2330-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "334858b35eaf:server:0:6581939b",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/guo-xinwa-chen-fanghui-vs-jiang-zhenbang-wei-yaxin-luc-2330-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=f4ae9e97fe28522460315e3682dafc38&wsABSTime=1792184001"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP HAVU VS ROUNDS VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/havu-vs-rounds-luc-1700-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "f4a9ba9fd029:server:0:6784900a",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/havu-vs-rounds-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel71.flv?wsSecret=8693253169af6d2f044fe5690f72b7b4&wsABSTime=1792184006"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP HINATA SUZUKI/NAO YAMAKITA VS LAM LAUREN/LEE ALLISON VÀO LÚC 20:10, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/hinata-suzuki-nao-yamakita-vs-lam-lauren-lee-allison-luc-2010-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "9091fcba5bdc:server:0:d26c313d",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/hinata-suzuki-nao-yamakita-vs-lam-lauren-lee-allison-luc-2010-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=18a2f9ab7342fb181608d372d7e07044&wsABSTime=1792184007"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP HONVÉD VS LAVKED VÀO LÚC 02:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/honved-vs-lavked-luc-0200-ngay-17-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "77888d1878d0:server:0:ad1ad28c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/honved-vs-lavked-luc-0200-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel71.flv?wsSecret=385da03fc2c99a3237194eb90af55b6a&wsABSTime=1792184010"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP JACOB FEARNLEY VS MAXIM MRVA VÀO LÚC 20:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/jacob-fearnley-vs-maxim-mrva-luc-2000-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0d7e9be1e61d:server:0:decb5ee1",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/jacob-fearnley-vs-maxim-mrva-luc-2000-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel59.flv?wsSecret=5e4a27a75e1dda14b90f9a760efade60&wsABSTime=1792184014"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP JUAN MANUEL LA SERNA VS FRANCO RONCADELLI VÀO LÚC 03:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/juan-manuel-la-serna-vs-franco-roncadelli-luc-0300-ngay-17-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "33cf7cc7737e:server:0:aae750c1",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/juan-manuel-la-serna-vs-franco-roncadelli-luc-0300-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel56.flv?wsSecret=9c4331a95af60027cf6b18fc80eabcaf&wsABSTime=1792184016"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP JULIA GRABHER VS ARIANA GEERLINGS MARTINEZ VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/julia-grabher-vs-ariana-geerlings-martinez-luc-1500-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0fca421677af:server:0:38043b6a",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/julia-grabher-vs-ariana-geerlings-martinez-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel54.flv?wsSecret=040d21ba3ba9c3f500ae228233ac6493&wsABSTime=1792184020"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP KAIRAT ALMATY II VS EKIBASTUZETS VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/kairat-almaty-ii-vs-ekibastuzets-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "bb05df936b25:server:0:72af7385",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/kairat-almaty-ii-vs-ekibastuzets-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel5.flv?wsSecret=de2e0ce1419e765a953510fdce397163&wsABSTime=1792184023"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP KIM WON-HO/SEO SEUNG-JAE VS KAKERU KUMAGAI/HIROKI NISHI VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/kim-won-ho-seo-seung-jae-vs-kakeru-kumagai-hiroki-nishi-luc-1600-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "632e91b4f82e:server:0:fe534dbb",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/kim-won-ho-seo-seung-jae-vs-kakeru-kumagai-hiroki-nishi-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=ac219dfc67ef83ec907cd86d2ab41bbf&wsABSTime=1792184025"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP KORB3N TEAM VS TEAM STARIY BOG VÀO LÚC 23:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/korb3n-team-vs-team-stariy-bog-luc-2330-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "6bd7af248358:server:0:673e06b8",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/korb3n-team-vs-team-stariy-bog-luc-2330-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel73.flv?wsSecret=f480e318a88328fddbe5c0e97692e421&wsABSTime=1792184028"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP KRISTINA NOVAK/IVANA SEBESTOVA VS DOMINIKA SALKOVA/ANNA SISKOVA VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/kristina-novak-ivana-sebestova-vs-dominika-salkova-anna-siskova-luc-2100-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ff99982e29fd:server:0:ecf74f04",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/kristina-novak-ivana-sebestova-vs-dominika-salkova-anna-siskova-luc-2100-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel50.flv?wsSecret=b1fe98bda1665dfbdbb99b8b09cc7a81&wsABSTime=1792184032"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP LI ANN VS IGA SWIATEK VÀO LÚC 18:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/li-ann-vs-iga-swiatek-luc-1800-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "9e5d444cb5d5:server:0:d3ec00f3",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/li-ann-vs-iga-swiatek-luc-1800-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel57.flv?wsSecret=1aeb169a71afebc45d40d3f3d9af10e4&wsABSTime=1792184034"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP LUCIE HAVLICKOVA VS JIL TEICHMANN VÀO LÚC 23:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/lucie-havlickova-vs-jil-teichmann-luc-2300-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "38f7428dd0cb:server:0:1719fee5",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/lucie-havlickova-vs-jil-teichmann-luc-2300-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel52.flv?wsSecret=24eb2887d2851d47870099f1fa5e7847&wsABSTime=1792184038"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP LUIS MIGUEL VS HUGO DELLIEN VÀO LÚC 02:10, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/luis-miguel-vs-hugo-dellien-luc-0210-ngay-17-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "85551f5ed110:server:0:cfc5438f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/luis-miguel-vs-hugo-dellien-luc-0210-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel55.flv?wsSecret=04a5f9e317a0729c9d7b4468894ab36d&wsABSTime=1792184040"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MAJA CHWALINSKA VS MARIA SAKKARI VÀO LÚC 14:35, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/maja-chwalinska-vs-maria-sakkari-luc-1240-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "a3d6e59537f4:server:0:1df62645",
+          "index": 0,
+          "name": "VIC",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/maja-chwalinska-vs-maria-sakkari-luc-1240-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel32.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "a3d6e59537f4:server:1:8731f78b",
+          "index": 1,
+          "name": "HD VIC",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/maja-chwalinska-vs-maria-sakkari-luc-1240-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001792140851-0-0-187039a6c7eba3a2a8428a1938b37ace"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MAPUA CARDINALS VS UPHSD ALTAS VÀO LÚC 14:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/mapua-cardinals-vs-uphsd-altas-luc-1400-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3631285a3aad:server:0:88fb8739",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/mapua-cardinals-vs-uphsd-altas-luc-1400-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel46.flv?wsSecret=67af91509d89184b0eafb4dee0fd08b8&wsABSTime=1792184047"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MARTIN LANDALUCE VS KEEGAN SMITH VÀO LÚC 13:55, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/martin-landaluce-vs-keegan-smith-luc-1230-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "2ad289814461:server:0:22e74bd8",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/martin-landaluce-vs-keegan-smith-luc-1230-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel59.flv?wsSecret=5e8dba8f8a4200f2fcedb336c671eb65&wsABSTime=1792184050"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MICHAEL MMOH VS LUCA NARDI VÀO LÚC 22:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/michael-mmoh-vs-luca-nardi-luc-2200-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0cf38c166861:server:0:2c2e223f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/michael-mmoh-vs-luca-nardi-luc-2200-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel51.flv?wsSecret=133e17143d339ec86f6e403ffae8778c&wsABSTime=1792184054"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MSPCC CITY CLUB VS BASHUNDHARA KINGS VÀO LÚC 15:45, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/mspcc-city-club-vs-bashundhara-kings-luc-1545-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "b07aa48bea3f:server:0:8c6443ff",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/mspcc-city-club-vs-bashundhara-kings-luc-1545-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel23.flv?wsSecret=8e3525d0744f84fbf8a103bcca2935dd&wsABSTime=1792184056"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP MVK ESPORTS VS KARMINE CORP VÀO LÚC 01:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/mvk-esports-vs-karmine-corp-luc-0100-ngay-17-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "a58a7304ff22:server:0:1b2ac3f9",
+          "index": 0,
+          "name": "MARTY",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/mvk-esports-vs-karmine-corp-luc-0100-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel30.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "a58a7304ff22:server:1:c533636b",
+          "index": 1,
+          "name": "HD MARTY",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/mvk-esports-vs-karmine-corp-luc-0100-ngay-17-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-30.flv?auth_key=3000001792140867-0-0-7665c50510beb1a592f53436313e5f79"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NEMIGA GAMING VS TEAM SPIRIT ACADEMY VÀO LÚC 20:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nemiga-gaming-vs-team-spirit-academy-luc-2000-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "0f5bfefcc937:server:0:7c26c1e8",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nemiga-gaming-vs-team-spirit-academy-luc-2000-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel72.flv?wsSecret=4160a02b2899960e60f21d0aba86c2a4&wsABSTime=1792184063"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NINJAS IN PYJAMAS VS LIQUID VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/ninjas-in-pyjamas-vs-liquid-luc-1500-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "6a245259dbbe:server:0:2de86551",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/ninjas-in-pyjamas-vs-liquid-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel70.flv?wsSecret=5c85384486a7b1df9daaaa8348b0522a&wsABSTime=1792184066"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NIZHNEVARTOVSK VS MAKHACHKALA VÀO LÚC 20:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nizhnevartovsk-vs-makhachkala-luc-2030-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d774fae28a86:server:0:12630bd0",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nizhnevartovsk-vs-makhachkala-luc-2030-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel84.flv?wsSecret=2260d9bbcfaae731ed5fdb14acd037c0&wsABSTime=1792184069"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NSW PHOENIX VS QUEENSLAND PIRATES VÀO LÚC 10:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nsw-phoenix-vs-queensland-pirates-luc-1000-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "33285016dd0a:server:0:ca6c4539",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nsw-phoenix-vs-queensland-pirates-luc-1000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=9b228ac3ebcaad25e7b39017abf137cf&wsABSTime=1792184072"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ BRESCIA VS NỮ VALLEFOGLIA VÀO LÚC 01:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-brescia-vs-nu-vallefoglia-luc-0100-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3bd29957b359:server:0:3bb96dc8",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-brescia-vs-nu-vallefoglia-luc-0100-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel83.flv?wsSecret=6d6dcbe98aac7cdb0158f00369bec119&wsABSTime=1792184075"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ FUJIAN NANAN VS NỮ HENAN VÀO LÚC 14:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-fujian-nanan-vs-nu-henan-luc-1430-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "f2fbdfece6df:server:0:41f982a7",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-fujian-nanan-vs-nu-henan-luc-1430-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel4.flv?wsSecret=6c841a51e7aa4899aacd49bf9a11a808&wsABSTime=1792184078"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ HEBEI SNOW RUYI VS NỮ YONGCHUAN VÀO LÚC 14:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-hebei-snow-ruyi-vs-nu-yongchuan-luc-1430-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "207123229d9d:server:0:ee3dabc4",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-hebei-snow-ruyi-vs-nu-yongchuan-luc-1430-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel3.flv?wsSecret=2c1faca30386f14271dd5e2dd24373b9&wsABSTime=1792184081"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ HYUNDAI HILLSTATE VS NỮ GS CALTEX VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-hyundai-hillstate-vs-nu-gs-caltex-luc-1700-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "a059589229d4:server:0:d842bcc2",
+          "index": 0,
+          "name": "TYSON",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-hyundai-hillstate-vs-nu-gs-caltex-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel33.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "a059589229d4:server:1:5d874ad0",
+          "index": 1,
+          "name": "HD TYSON",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/nu-hyundai-hillstate-vs-nu-gs-caltex-luc-1700-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001792140892-0-0-b3081b74402b2bb9f3488f3cd0e6af46"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ NEFTYANIK AVANGARD VS NỮ VLSU VLADIMIR VÀO LÚC 20:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-neftyanik-avangard-vs-nu-vlsu-vladimir-luc-2000-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "eb59cf4b171a:server:0:fe93b62e",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-neftyanik-avangard-vs-nu-vlsu-vladimir-luc-2000-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel45.flv?wsSecret=fc0a04578acc4d34df7813457bc14065&wsABSTime=1792184089"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ NSW PHOENIX VS NỮ QUEENSLAND PIRATES VÀO LÚC 10:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-nsw-phoenix-vs-nu-queensland-pirates-luc-1000-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "536f419d6bf8:server:0:a0c630a1",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-nsw-phoenix-vs-nu-queensland-pirates-luc-1000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel81.flv?wsSecret=98c03aaa77e903e0ccc8f4b5f4d03f67&wsABSTime=1792184091"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ PFU BLUE CATS VS NỮ TORAY ARROWS VÀO LÚC 11:05, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-pfu-blue-cats-vs-nu-toray-arrows-luc-1105-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "16ff6f311ad6:server:0:8c5d60ec",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-pfu-blue-cats-vs-nu-toray-arrows-luc-1105-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel82.flv?wsSecret=f04c22f4518026293a862f6dd8dec655&wsABSTime=1792184095"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ PRAIA CLUBE VS NỮ OSASCO VÀO LÚC 07:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-praia-clube-vs-nu-osasco-luc-0700-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "7490a3d39821:server:0:53e70d87",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-praia-clube-vs-nu-osasco-luc-0700-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=770d10ebf0a9e17f002b2481a00a043a&wsABSTime=1792184098"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ SHANGHAI HUILONG VS NỮ WUHAN VÀO LÚC 14:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-shanghai-huilong-vs-nu-wuhan-luc-1430-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "6d6e81b3790e:server:0:6ded2e25",
+          "index": 0,
+          "name": "JEAN",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-shanghai-huilong-vs-nu-wuhan-luc-1430-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel7.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "6d6e81b3790e:server:1:31c93c12",
+          "index": 1,
+          "name": "HD JEAN",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/nu-shanghai-huilong-vs-nu-wuhan-luc-1430-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-7.flv?auth_key=3000001792140910-0-0-b6a8a96f4c4256e627f288d02940f694"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ SHANGHAI SHENHUA VS NỮ QINGDAO COAST VÀO LÚC 14:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-shanghai-shenhua-vs-nu-qingdao-coast-luc-1430-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "e511c0f71730:server:0:3d89544c",
+          "index": 0,
+          "name": "TONI",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-shanghai-shenhua-vs-nu-qingdao-coast-luc-1430-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel9.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "e511c0f71730:server:1:bf93b7c2",
+          "index": 1,
+          "name": "HD TONI",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/nu-shanghai-shenhua-vs-nu-qingdao-coast-luc-1430-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001792140914-0-0-017b0394142b2903d1253b5ca2010eae"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ SOUTHSIDE VS NỮ SYDNEY UNI VÀO LÚC 15:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-southside-vs-nu-sydney-uni-luc-1500-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "1b9de6c68e5e:server:0:e095b68d",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-southside-vs-nu-sydney-uni-luc-1500-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel48.flv?wsSecret=4f521b52fd8c070835d910d9bc7db840&wsABSTime=1792184109"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ TURAN VS NỮ ZHETYSU VÀO LÚC 20:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-turan-vs-nu-zhetysu-luc-2000-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3940aca009fc:server:0:c943d9b0",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-turan-vs-nu-zhetysu-luc-2000-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel83.flv?wsSecret=3397b9918a69951cea8749334aafd582&wsABSTime=1792184114"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP NỮ WROCLAW VS NỮ CHEMIK POLICE VÀO LÚC 00:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/nu-wroclaw-vs-nu-chemik-police-luc-0000-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "e9e3a73c3106:server:0:905a5e19",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/nu-wroclaw-vs-nu-chemik-police-luc-0000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel82.flv?wsSecret=cf63877bbb913e9666ff1685761d3173&wsABSTime=1792184117"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP OAKLEIGH CANNONS VS SYDNEY OLYMPIC VÀO LÚC 15:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/oakleigh-cannons-vs-sydney-olympic-luc-1530-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "eeb676e8e307:server:0:5c950146",
+          "index": 0,
+          "name": "RAVEN",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/oakleigh-cannons-vs-sydney-olympic-luc-1530-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel21.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "eeb676e8e307:server:1:8fa1cd42",
+          "index": 1,
+          "name": "HD RAVEN",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/oakleigh-cannons-vs-sydney-olympic-luc-1530-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-21.flv?auth_key=3000001792140928-0-0-71fca00327fa0447e47d54f8b08cdd24"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP OBOLON KYIV VS VERES VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/obolon-kyiv-vs-veres-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "1264dc1bf2b9:server:0:4626c982",
+          "index": 0,
+          "name": "BEE",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/obolon-kyiv-vs-veres-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel8.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "1264dc1bf2b9:server:1:fef1e9d2",
+          "index": 1,
+          "name": "HD BEE",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/obolon-kyiv-vs-veres-luc-1700-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-8.flv?auth_key=3000001792140932-0-0-85b1f4f24bc254ad02c7115a0511c903"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PEERATCHAI SUKPHUN/PAKKAPON TEERARATSAKUL VS FAJAR ALFIAN/MUHAMMAD SHOHIBUL FIKRI VÀO LÚC 17:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/peeratchai-sukphun-pakkapon-teeraratsakul-vs-fajar-alfian-muhammad-shohibul-fikri-luc-1740-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "5878ae78f64b:server:0:fdb3890b",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/peeratchai-sukphun-pakkapon-teeraratsakul-vs-fajar-alfian-muhammad-shohibul-fikri-luc-1740-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=ed0ac5d662dcbe0ab7c198fbcc9d21a2&wsABSTime=1792184127"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PHOENIX FUEL MASTERS VS MERALCO BOLTS VÀO LÚC 18:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/phoenix-fuel-masters-vs-meralco-bolts-luc-1830-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "eb8d849c5157:server:0:026e7b60",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/phoenix-fuel-masters-vs-meralco-bolts-luc-1830-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel44.flv?wsSecret=6afd97836f5ccaaca243cea123e8994d&wsABSTime=1792184132"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PINAR KARSIYAKA VS CAYIROVA BELEDIYESI VÀO LÚC 23:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/pinar-karsiyaka-vs-cayirova-belediyesi-luc-2300-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ffc1f5c8a6b7:server:0:0bc7052f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/pinar-karsiyaka-vs-cayirova-belediyesi-luc-2300-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel41.flv?wsSecret=67392592b9d89acabc9aa3750592be6f&wsABSTime=1792184136"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PLATENSE LDD VS OBERA LDD VÀO LÚC 02:30, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/platense-ldd-vs-obera-ldd-luc-0230-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "7532a103d9a1:server:0:9abc02cd",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/platense-ldd-vs-obera-ldd-luc-0230-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel41.flv?wsSecret=030b0ef6c0db2a02864a01c4195aca21&wsABSTime=1792184137"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PORNPAWEE CHOCHUWONG VS YAMAGUCHI AKANE VÀO LÚC 18:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/pornpawee-chochuwong-vs-yamaguchi-akane-luc-1830-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "34ec6a2e7cc2:server:0:3e5b265c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/pornpawee-chochuwong-vs-yamaguchi-akane-luc-1830-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=468a3436ae59c07c2b383e6bbda61ae0&wsABSTime=1792184141"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PSIM YOGYAKARTA VS PSM MAKASSAR VÀO LÚC 15:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/psim-yogyakarta-vs-psm-makassar-luc-1530-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "f0bccece86dd:server:0:a0616355",
+          "index": 0,
+          "name": "MAX",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/psim-yogyakarta-vs-psm-makassar-luc-1530-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel6.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "f0bccece86dd:server:1:ba8733c3",
+          "index": 1,
+          "name": "HD MAX",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/psim-yogyakarta-vs-psm-makassar-luc-1530-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-6.flv?auth_key=3000001792140954-0-0-7e46ae1d8f33c09a44da1a20965e0104"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PUCKCHAMP VS INNER CIRCLE X INSANITY VÀO LÚC 17:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/puckchamp-vs-inner-circle-x-insanity-luc-1700-ngay-13-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "2a31c7e9a157:server:0:a208eeb9",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/puckchamp-vs-inner-circle-x-insanity-luc-1700-ngay-13-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel77.flv?wsSecret=5a60d21cc30828b4289cf33c4bee04fa&wsABSTime=1792184146"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PUTRI KUSUMA WARDANI VS WANG ZHIYI VÀO LÚC 16:50, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/putri-kusuma-wardani-vs-wang-zhiyi-luc-1650-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "500c7ac44a48:server:0:329f8538",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/putri-kusuma-wardani-vs-wang-zhiyi-luc-1650-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=014dd53463eff37a20de41c0b1139e62&wsABSTime=1792184150"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP PWD SPORTS CLUB VS MOHAMMEDAN DHAKA VÀO LÚC 15:45, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/pwd-sports-club-vs-mohammedan-dhaka-luc-1545-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "b3b4de8ecb90:server:0:4d7d70c8",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/pwd-sports-club-vs-mohammedan-dhaka-luc-1545-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel24.flv?wsSecret=2884fd050e66cfc87971ae7214e12f01&wsABSTime=1792184155"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP RAFAEL JODAR VS CASPER RUUD VÀO LÚC 13:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/rafael-jodar-vs-casper-ruud-luc-1330-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "ba0b5676c7b9:server:0:66feb987",
+          "index": 0,
+          "name": "LUCAS",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/rafael-jodar-vs-casper-ruud-luc-1330-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel31.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "ba0b5676c7b9:server:1:0eaaa8b0",
+          "index": 1,
+          "name": "HD LUCAS",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/rafael-jodar-vs-casper-ruud-luc-1330-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001792140965-0-0-654343209ea2edbeabc1599ae4f08a28"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP RASMUS GEMKE VS LAI VICTOR VÀO LÚC 23:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/rasmus-gemke-vs-lai-victor-luc-2330-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "fb0eb59fe286:server:0:d30352b0",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/rasmus-gemke-vs-lai-victor-luc-2330-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=44326ce464d6a74257e5e0bf24a2ab4a&wsABSTime=1792184160"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP RESHETYLIVKA VS DSO TERNOPIL VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/reshetylivka-vs-dso-ternopil-luc-2200-ngay-15-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "5b8ca25f965b:server:0:e9d2818f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/reshetylivka-vs-dso-ternopil-luc-2200-ngay-15-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel82.flv?wsSecret=77de712bb7b48fe07abf13c8dc06b660&wsABSTime=1792184165"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP RESPUBLIKA FA VS OLYMPIC MOBIUZ VÀO LÚC 17:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/respublika-fa-vs-olympic-mobiuz-luc-1700-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "a2f5a49a9eaa:server:0:4bd76bb4",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/respublika-fa-vs-olympic-mobiuz-luc-1700-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel6.flv?wsSecret=17b040d00e4f7341be565df6e1b3ef47&wsABSTime=1792184169"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SAIKHAMAKAWN FC VS DINTHAR FC VÀO LÚC 16:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/saikhamakawn-fc-vs-dinthar-fc-luc-1630-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "79491dc84aae:server:0:901c9626",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/saikhamakawn-fc-vs-dinthar-fc-luc-1630-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel25.flv?wsSecret=76ca1a0a2b4cbf74f454891401f833f6&wsABSTime=1792184170"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SARA ERRANI/JASMINE PAOLINI VS ANNA DANILINA/ZHANG SHUAI VÀO LÚC 19:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/sara-errani-jasmine-paolini-vs-anna-danilina-zhang-shuai-luc-1930-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "43f6e85dcd1f:server:0:fe70c9d9",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/sara-errani-jasmine-paolini-vs-anna-danilina-zhang-shuai-luc-1930-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel58.flv?wsSecret=d83c5b5ffeb9c6f435e5153cdbda834e&wsABSTime=1792184174"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SAYAKA HIROTA/AYAKO SAKURAMOTO VS SUMIRE NAKADE/MIYU TAKAHASHI VÀO LÚC 22:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/sayaka-hirota-ayako-sakuramoto-vs-sumire-nakade-miyu-takahashi-luc-2240-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d132491b6be7:server:0:73e3f841",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/sayaka-hirota-ayako-sakuramoto-vs-sumire-nakade-miyu-takahashi-luc-2240-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=53c5b6a843f121c3f2bfc755f4afd640&wsABSTime=1792184179"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SHANGHAI SHARKS VS SHENZHEN LEOPARDS VÀO LÚC 18:35, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/shanghai-sharks-vs-shenzhen-leopards-luc-1835-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "192c771f86b2:server:0:e27f9d9d",
+          "index": 0,
+          "name": "TOMMY",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/shanghai-sharks-vs-shenzhen-leopards-luc-1835-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel29.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "192c771f86b2:server:1:18437cf7",
+          "index": 1,
+          "name": "HD TOMMY",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/shanghai-sharks-vs-shenzhen-leopards-luc-1835-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001792140987-0-0-93259b2ea434796ddb06093b2e6912dc"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SIEDLCE VS BIELSKO-BIALA VÀO LÚC 23:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/siedlce-vs-bielsko-biala-luc-2300-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "8a32339cf1d4:server:0:419bf53e",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/siedlce-vs-bielsko-biala-luc-2300-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel81.flv?wsSecret=985ff034d929dea98d40e35ff5f57f86&wsABSTime=1792184183"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SSC-R STAGS VS LPU PIRATE VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/ssc-r-stags-vs-lpu-pirate-luc-1600-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "37d598623465:server:0:1c1dfae7",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/ssc-r-stags-vs-lpu-pirate-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel42.flv?wsSecret=7a007d77cdcfb9d24922377a431fe73f&wsABSTime=1792184189"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP SYDNEY FC VS WESTERN SYDNEY WANDERERS FC VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/sydney-fc-vs-western-sydney-wanderers-fc-luc-1600-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "4770cc555784:server:0:636d34ff",
+          "index": 0,
+          "name": "NICK",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/sydney-fc-vs-western-sydney-wanderers-fc-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel5.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "4770cc555784:server:1:1b4f4913",
+          "index": 1,
+          "name": "HD NICK",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/sydney-fc-vs-western-sydney-wanderers-fc-luc-1600-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001792141000-0-0-c34f7b48545cf36190e79b810456f769"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP TASMANIA JACKJUMPERS VS ADELAIDE 36ERS VÀO LÚC 15:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/tasmania-jackjumpers-vs-adelaide-36ers-luc-1530-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3c20ab66e9e3:server:0:8caff8a6",
+          "index": 0,
+          "name": "TOMMY",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/tasmania-jackjumpers-vs-adelaide-36ers-luc-1530-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel29.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "3c20ab66e9e3:server:1:26c7d48b",
+          "index": 1,
+          "name": "HD TOMMY",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/tasmania-jackjumpers-vs-adelaide-36ers-luc-1530-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001792141003-0-0-cccd1e264500860112c6d71077caecac"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP THIJMEN LOOF/KAITO UESUGI VS JEAN-JULIEN ROJER/THEODORE WINEGAR VÀO LÚC 13:40, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/thijmen-loof-kaito-uesugi-vs-jean-julien-rojer-theodore-winegar-luc-1340-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "1e6bd6dae059:server:0:b6a37ebf",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/thijmen-loof-kaito-uesugi-vs-jean-julien-rojer-theodore-winegar-luc-1340-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel52.flv?wsSecret=2c2220ed99d5995571de2c1f45d61d7f&wsABSTime=1792184199"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP THITSAR ARMAN FC VS ISPE FC VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/thitsar-arman-fc-vs-ispe-fc-luc-1600-ngay-16-10-2026/",
+      "sport_name": "football",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "c1885db38036:server:0:8be5f510",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/thitsar-arman-fc-vs-ispe-fc-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel1.flv?wsSecret=aa594686429876e23c9419be65f4ba88&wsABSTime=1792184203"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP TOM GENTZSCH VS DAMIR DZUMHUR VÀO LÚC 16:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/tom-gentzsch-vs-damir-dzumhur-luc-1600-ngay-16-10-2026/",
+      "sport_name": "tennis",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "d4edff6eadd5:server:0:c5d5b9fc",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/tom-gentzsch-vs-damir-dzumhur-luc-1600-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel55.flv?wsSecret=6c6dc1084ec74246c1c9111486e94483&wsABSTime=1792184206"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP TOMOKA MIYAZAKI VS NOZOMI OKUHARA VÀO LÚC 21:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/tomoka-miyazaki-vs-nozomi-okuhara-luc-2100-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "beac58454551:server:0:05b1ed22",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/tomoka-miyazaki-vs-nozomi-okuhara-luc-2100-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel62.flv?wsSecret=dd92695decc715becaa86df4ace492f1&wsABSTime=1792184209"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP TREESA JOLLY/GAYATRI GOPICHAND PULLELA VS PEARLY TAN/THINAAH MURALITHARAN VÀO LÚC 18:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/treesa-jolly-gayatri-gopichand-pullela-vs-pearly-tan-thinaah-muralitharan-luc-1830-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "795605404384:server:0:8e7aebbe",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/treesa-jolly-gayatri-gopichand-pullela-vs-pearly-tan-thinaah-muralitharan-luc-1830-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=0a79e2e6e4d052867c1ed6cd540f681f&wsABSTime=1792184212"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP TYUMEN VS ENERGOSTROY MOSCOW VÀO LÚC 18:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/tyumen-vs-energostroy-moscow-luc-1800-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "85d8447ec7e7:server:0:25b76d9b",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/tyumen-vs-energostroy-moscow-luc-1800-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel81.flv?wsSecret=1812f410a9440558c91cb8f69f1e35af&wsABSTime=1792184216"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP UPCN VS BOCA JUNIORS VÀO LÚC 07:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/upcn-vs-boca-juniors-luc-0700-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "de1eff9d2ca8:server:0:d5e39608",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/upcn-vs-boca-juniors-luc-0700-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel81.flv?wsSecret=cf9dd56137f6d9adc4065eb33785726e&wsABSTime=1792184218"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP VC KUZBASS KEMEROVO VS DINAMO-LO VÀO LÚC 19:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/vc-kuzbass-kemerovo-vs-dinamo-lo-luc-1900-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "6a3412fb279a:server:0:ef58f445",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/vc-kuzbass-kemerovo-vs-dinamo-lo-luc-1900-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel80.flv?wsSecret=97d250b01e90695d4b31d1d381344431&wsABSTime=1792184222"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP VERVA WARSZAWA VS OLSZTYN VÀO LÚC 01:30, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/verva-warszawa-vs-olsztyn-luc-0130-ngay-17-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "cabe127af430:server:0:e774167a",
+          "index": 0,
+          "name": "TYSON",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/verva-warszawa-vs-olsztyn-luc-0130-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel33.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "cabe127af430:server:1:72d0b8b1",
+          "index": 1,
+          "name": "HD TYSON",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/verva-warszawa-vs-olsztyn-luc-0130-ngay-17-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-33.flv?auth_key=3000001792141032-0-0-ce33dbcbdb7c0b2be046736735708400"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP VFB FRIEDRICHSHAFEN VS FREIBURG VÀO LÚC 18:30, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/vfb-friedrichshafen-vs-freiburg-luc-1830-ngay-16-10-2026/",
+      "sport_name": "volleyball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "80fcb956a278:server:0:af9ed61e",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/vfb-friedrichshafen-vs-freiburg-luc-1830-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel82.flv?wsSecret=66fa03a75476f819114aa6490675c853&wsABSTime=1792184228"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP XTREME GAMING VS CLOUD DAWNING VÀO LÚC 18:00, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/xtreme-gaming-vs-cloud-dawning-luc-1800-ngay-16-10-2026/",
+      "sport_name": "esports",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "7ab987b3df66:server:0:57ee1cbc",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/xtreme-gaming-vs-cloud-dawning-luc-1800-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel73.flv?wsSecret=c60d6be07c1c34288a98311ed4436d81&wsABSTime=1792184231"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP YOKOHAMA B-CORSAIRS VS RYUKYU GOLDEN KINGS VÀO LÚC 17:05, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/yokohama-b-corsairs-vs-ryukyu-golden-kings-luc-1705-ngay-16-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "3194abb3958e:server:0:335d1838",
+          "index": 0,
+          "name": "KOBE",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/yokohama-b-corsairs-vs-ryukyu-golden-kings-luc-1705-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live2.jorvakstreamcache.com/live/channel27.flv"
+          ],
+          "status": "stream_found"
+        },
+        {
+          "instance_id": "3194abb3958e:server:1:5d2dbb9f",
+          "index": 1,
+          "name": "HD KOBE",
+          "server": "Server 2",
+          "data_link": "1",
+          "href": "https://devolvedai.com/truc-tiep/yokohama-b-corsairs-vs-ryukyu-golden-kings-luc-1705-ngay-16-10-2026/link/1",
+          "stream_urls": [
+            "https://live2.domaincdn.cc/livecdn/channel-27.flv?auth_key=3000001792141042-0-0-ef06da86caed16f8a8cacf31880d73b3"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP YUDAI OKIMOTO VS CHRISTO POPOV VÀO LÚC 20:10, NGÀY 16/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/yudai-okimoto-vs-christo-popov-luc-2010-ngay-16-10-2026/",
+      "sport_name": "badminton",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "8816f38ea94c:server:0:c209e85f",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/yudai-okimoto-vs-christo-popov-luc-2010-ngay-16-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel61.flv?wsSecret=97d71d90bf5de73ee14714bf77e55946&wsABSTime=1792184237"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    },
+    {
+      "title": "PHÁT TRỰC TIẾP ZALGIRIS KAUNAS VS ANADOLU EFES1976 VÀO LÚC 00:00, NGÀY 17/10/2026",
+      "url": "https://devolvedai.com/truc-tiep/zalgiris-kaunas-vs-anadolu-efes1976-luc-0000-ngay-17-10-2026/",
+      "sport_name": "basketball",
+      "status": "ready",
+      "players": [
+        {
+          "instance_id": "7f74c1b816e1:server:0:3c0f675c",
+          "index": 0,
+          "name": "HD 1",
+          "server": "Server 1",
+          "data_link": "0",
+          "href": "https://devolvedai.com/truc-tiep/zalgiris-kaunas-vs-anadolu-efes1976-luc-0000-ngay-17-10-2026/",
+          "stream_urls": [
+            "https://live1.quickscoreboardz.com/live/channel43.flv?wsSecret=1e0d3b276bfdd7163967ffbdaff42927&wsABSTime=1792184241"
+          ],
+          "status": "stream_found"
+        }
+      ]
+    }
+  ]
+}
